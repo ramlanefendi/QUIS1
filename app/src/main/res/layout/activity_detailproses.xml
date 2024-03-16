@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/SelamatDatang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/etmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/SelamatDatang"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/etkode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/etmember"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/etnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/etkode"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/itemPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/etnama"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvdiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/tvdiskon"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/diskontambahan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Diskon Tambahan: "
+        android:layout_below="@id/tvdiskon"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/diskonmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/diskontambahan"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/jlhbayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:layout_below="@id/diskonmember"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/btnbagikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagikan"
+        android:layout_below="@id/jlhbayar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>

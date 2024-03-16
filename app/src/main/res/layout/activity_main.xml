@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="@string/title" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:hint="Nama"
+        android:minHeight="48dp"/>
+
+    <TextView
+        android:id="@+id/tvtipepelanggan"
+        android:text="Tipe Pelanggan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btngold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/btnsilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"/>
+
+        <RadioButton
+            android:id="@+id/btnreguler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/etkodebarang"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:hint="Kode Barang"
+        android:minHeight="48dp"/>
+    <EditText
+        android:id="@+id/etjlhbarang"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:hint="Jumlah Barang"
+        android:minHeight="48dp"/>
+    <Button
+        android:id="@+id/btnproses"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center"
+        android:text="proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
